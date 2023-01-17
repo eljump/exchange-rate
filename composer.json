@@ -1,5 +1,5 @@
 {
-    "name": "drandin/exchange-rate",
+    "name": "eljump/exchange-rate-fork",
     "description": "Exchange rate of the Central Bank of the Russian Federation. Currency converter. Getting data from the Central Bank's website cbr.ru",
     "keywords": [
         "Exchange rate",
@@ -14,12 +14,15 @@
         {
             "name": "Igor Drandin",
             "email": "idrandin@gmail.com"
+        },
+        {
+            "name": "Ilya Prigunov",
+            "email": "eliasejump@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "CentralBankRussian\\ExchangeRate\\": "src/"
+            "CentralBankRussian\\ExchangeRateFork\\": "src/"
         }
     },
     "require": {
