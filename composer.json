@@ -14,15 +14,11 @@
         {
             "name": "Igor Drandin",
             "email": "idrandin@gmail.com"
-        },
-        {
-            "name": "Ilya Prigunov",
-            "email": "eliasejump@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "CentralBankRussian\\ExchangeRateFork\\": "src/"
+            "CentralBankRussian\\ExchangeRate\\": "src/"
         }
     },
     "require": {
